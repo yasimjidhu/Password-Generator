@@ -37,7 +37,7 @@ const PasswordGenerator = () => {
       alert('Please select at least one character type.');
       return;
     }
-    setApiUrl('http://localhost:3000/passwords');
+    setApiUrl('http://localhost:4000/passwords');
   };
 
   useEffect(() => {
