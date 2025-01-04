@@ -37,7 +37,7 @@ const PasswordGenerator = () => {
       alert('Please select at least one character type.');
       return;
     }
-    setApiUrl('http://localhost:4000/passwords');
+    setApiUrl('https://password-generator-2-rki6.onrender.com/passwords');
   };
 
   useEffect(() => {
